@@ -1,0 +1,25 @@
+# Large reference data files (download from GEO GSE176078)
+reference/count_matrix_sparse.mtx
+reference/count_matrix_barcodes.tsv
+reference/count_matrix_genes.tsv
+reference/metadata.csv
+reference/*.tar.gz
+
+# Large processed data files (regenerate by running pipeline)
+output/data/reference_for_rctd.rds
+output/data/rctd_results.rds
+output/data/st_data_seurat.rds
+output/data/st_data_deconvolved.rds
+output/data/counts_matrix.rds
+
+# Input data (user provides)
+*.h5ad
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
