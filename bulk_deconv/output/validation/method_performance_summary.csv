@@ -1,0 +1,5 @@
+"Method","Correlation","RMSE","MAE"
+"MuSiC",0.9561,0.0343,0.022
+"NNLS",0.9338,0.0426,0.0257
+"BisqueRNA",0.8741,0.0566,0.0401
+"BayesPrism",0.8663,0.0669,0.0397
