@@ -23,3 +23,8 @@ output/data/counts_matrix.rds
 # OS files
 .DS_Store
 Thumbs.db
+
+# Bulk deconvolution data (large files)
+bulk_deconv/data/
+bulk_deconv/output/data/*.rds
+bulk_deconv/output/data/music_result_full.rds
